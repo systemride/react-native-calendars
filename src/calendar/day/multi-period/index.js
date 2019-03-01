@@ -90,7 +90,8 @@ class Day extends Component {
     return (
       <View
         style={{
-          alignSelf: 'stretch'
+          alignSelf: 'stretch',
+          marginHorizontal: -1
         }}>
         <TouchableOpacity style={containerStyle} onPress={this.onDayPress}>
           <Text allowFontScaling={false} style={textStyle}>
